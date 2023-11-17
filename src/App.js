@@ -1,6 +1,9 @@
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
   return (
     <div className="App">
+      <Navbar></Navbar>
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
