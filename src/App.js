@@ -1,4 +1,5 @@
 import Footer from './components/Footer/Footer';
+import Maps from './components/Maps/Maps';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
 					Learn React
 				</a>
 			</header>
+			<Maps></Maps>
 			<Footer></Footer>
 		</div>
 	);
