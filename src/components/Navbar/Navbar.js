@@ -1,11 +1,20 @@
-import { useState } from "react";
-
-const Navbar = ({ value, onSquareClick }) => {
+import React from 'react';
+import './Navbar.css';
+const Navbar = () => {
   return (
-    <button className="square" onClick={onSquareClick}>
-      {value}
-    </button>
+  <div>
+    <div>
+      <img src="../public/assets/drbodinilogo.png" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Lavori</a></li>
+        <button class="cta-button">Contatti</button>
+      </ul>
+    </nav>
+  </div>
   );
-};
+}
 
 export default Navbar;
