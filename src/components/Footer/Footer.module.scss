@@ -1,0 +1,31 @@
+.footer {
+	background-color: #031040;
+	color: #878787;
+
+	padding: 0 30px;
+}
+
+.upper {
+	border-bottom: 1px solid #808080;
+
+	padding: 60px 0;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	img {
+		height: 2rem;
+	}
+
+	p {
+		margin: 5px 0;
+	}
+}
+
+.lower {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 30px;
+}

@@ -1,3 +1,4 @@
+import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 					Learn React
 				</a>
 			</header>
+			<Footer></Footer>
 		</div>
 	);
 }
