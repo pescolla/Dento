@@ -4,7 +4,7 @@ import logo from '../../assets/drbodinilogo.png';
 
 const Navbar = () => {
 	return (
-		<div>
+		<div class="navbar">
 			<div>
 				<img src={logo} alt="logo" />
 			</div>

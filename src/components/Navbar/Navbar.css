@@ -2,7 +2,7 @@
 
 nav {
     align-items: center;
-    background-color: white;
+    background-color: slateblue;
     padding: 20px;
 }
 
@@ -43,4 +43,17 @@ a:hover {
     border: none;
     float: right;
     cursor: pointer;
+}
+
+.navbar {
+    height: 70px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+img {
+    max-width: 190px;
+
 }
